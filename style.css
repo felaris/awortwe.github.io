@@ -1,0 +1,43 @@
+body {
+    background: url("mypicture.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+p {
+    color: black;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: "Times New Roman", "monospace", "arial";
+}
+
+h1,
+h2 {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+h3,
+h4 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+h5,
+h6 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+footer {
+    text-align: left;
+    padding: 80px 60px;
+    margin: 20px 15px;
+    border-style: solid;
+    font-size: 30px;
+    background: #c5c507;
+    font-family: Arial, Helvetica, sans-serif;
+}
