@@ -1,7 +1,12 @@
+.hover-yellow:hover {
+    color: yellow;
+}
+
 body {
     background: url("mypicture.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    overflow: auto;
 }
 
 p {
@@ -34,9 +39,6 @@ h6 {
 
 footer {
     text-align: left;
-    padding: 80px 60px;
-    margin: 20px 15px;
-    border-style: solid;
     font-size: 30px;
     background: #c5c507;
     font-family: Arial, Helvetica, sans-serif;
