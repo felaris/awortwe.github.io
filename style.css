@@ -10,7 +10,7 @@
 
 /* to suit devices with 480px*/
 
-@media screen and (min-width:480px) {
+@media screen and (max-width:480px) {
     body,
     p {
         font-size: 12px;
@@ -28,30 +28,10 @@
 }
 
 
-/* suit devices 360px */
-
-@media screen and (min-width:360px) {
-    body,
-    p {
-        font-size: 8px;
-    }
-}
-
-
-/* suit devices 240px */
-
-@media screen and (min-width:240px) {
-    body,
-    p {
-        font-size: 6px;
-    }
-}
-
-
 /* main body properties */
 
 body {
-    /* used a picyure for the background */
+    /* used a picture for the background */
     background: url("mypicture.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
